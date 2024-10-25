@@ -5,7 +5,7 @@ public class Main {
     private static final String password="wj28@krhps";
     public static void main(String[] args) {
         try{
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
         }catch(ClassNotFoundException e){
             System.out.println(e.getMessage());
         }
